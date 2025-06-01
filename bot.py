@@ -18,6 +18,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 if __name__ == "__main__":
-    app = ApplicationBuilder().token("7842707470:AAG6x0PBYjjaodDEIi0UBwumARle4DfqwG4").build()
+    app = ApplicationBuilder().token("YOUR_BOT_TOKEN_HERE").build()
     app.add_handler(CommandHandler("start", start))
     app.run_polling()
