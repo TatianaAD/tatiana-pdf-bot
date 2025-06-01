@@ -18,6 +18,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 if __name__ == "__main__":
-    app = ApplicationBuilder().token("7842707470:AAGJ31Yjin6T-oIVJRvS5hxEQoRyr6r-f-M").build()
+    app = ApplicationBuilder().token("7842707470:AAEtU_0GdifXKkkJqxFazbkRgdhhnTX1eY0").build()
     app.add_handler(CommandHandler("start", start))
     app.run_polling()
